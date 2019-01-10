@@ -78,13 +78,6 @@ html {
 
 /* main */
 
-.main {
-    
-
-}
-
-
-
 .search__input {
     width: 100%;
     color: rgba(98, 98, 98, 0.5);
@@ -210,7 +203,7 @@ html {
   }
 
   .footer__form-language {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Roboto", sans-serif;
@@ -227,6 +220,115 @@ html {
     -webkit-appearance: none;
     text-align: center;
     text-align-last: center;
-    background-color: #3B3B3B;
+    background: url("../images/select-icon-left.svg") no-repeat 16px, url("../images/select-icon-right.svg") no-repeat 150px;
     color: #fff;
+    background-color: #3B3B3B;
   }
+
+  .footer__social {
+      margin-bottom: 40px;
+      width: 100%;
+  }
+
+  .footer__social-title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  .footer__social-title--sharp {
+      color: #49A144;
+  }
+.social__icon {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+}
+
+.social__icon--fb {
+    background: url("../images/logo-fb.svg") no-repeat;
+    
+}
+
+.social__icon--tw {
+    background: url("../images/logo-tw.svg") no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.social__icon--ig {
+    background: url("../images/logo-ig.svg") no-repeat;
+}
+
+.footer__nav-list--first,
+.footer__nav-list--last {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__nav-list--last {
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+.footer__nav-list--item {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 23px;
+}
+
+.footer__nav-list--item a {
+    font-size: 13px;
+    line-height: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__app {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer__app a {
+    width: 120px;
+    height: 35px;
+    border: 1px solid red;
+    color: white;
+    margin: 25px 12px;
+}
+
+.footer__copyright {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 13px;
+    padding: 12px 0;
+}
+
+.footer__copyright--first {
+    margin-top: 28px;
+}
+
+.footer__copyright--last {
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+}
+
+.scroll--up {
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    background: #59bd5a url("../images/scroll-arrow.svg") no-repeat center;
+    border-radius: 2px;
+}
+
+
+
