@@ -22,6 +22,8 @@ html {
   h6,
   p {
     font-weight: 400;
+    margin: 0;
+    padding: 0;
   }
   
   .container {
@@ -77,7 +79,7 @@ html {
 /* main */
 
 .main {
-    background-color: #f2f2f2;
+    
 
 }
 
@@ -137,8 +139,7 @@ html {
     -webkit-appearance: none;
     text-align: center;
     text-align-last: center;
-    background-color: #f2f2f2;
-    
+    background: #fff;
 }
 
 
@@ -160,3 +161,72 @@ html {
     padding: 7px 0 7px 36px;
 }
 
+.restaraunt-list__title {
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+.restaraunt-list__name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1d1d;
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+
+  .restaraunt-list__category {
+      font-size: 14px;
+      line-height: 21px;
+      color: #626262;
+      margin-bottom: 4px;
+  }
+
+  .restaraunt-list__time {
+      font-size: 13px;
+      line-height: 21px;
+      color: #626262;
+      margin-bottom: 36px;
+  }
+
+
+
+  /* Footer */
+
+  .footer {
+      background-color: #262626;
+  }
+
+  .footer__logo {
+      padding-top: 53px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+      
+  }
+
+  .footer__form {
+      margin-top: 32px;
+  }
+
+  .footer__form-language {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #3B3B3B;
+    border-radius: 2px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    line-height: 15px;
+    padding: 12px 71px 12px 48px;
+    appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    text-align: center;
+    text-align-last: center;
+    background-color: #3B3B3B;
+    color: #fff;
+  }
