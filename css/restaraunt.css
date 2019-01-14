@@ -1,0 +1,106 @@
+.restaraunt {
+    background: url("../images/restaraunt-photo.jpg") no-repeat center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 255px;
+    position: relative;
+}
+
+.restaraunt__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    margin-top: 130px;
+    border-radius: 2px;
+}
+
+
+.restaraunt__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    color: #1d1d1d;
+}
+
+.restaraunt__category {
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #626262;
+}
+
+.restaraunt__delivery {
+    padding: 10px 15px;
+    background: #262626;
+    border-radius: 16px;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.restaraunt__card-nav {
+    display: none;
+}
+
+.restaraunt__menu {
+   
+}
+
+.restaraunt__menu {
+    margin-top: 100px;
+}
+
+.restaraunt__menu-title {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1d1d1d;
+    margin-bottom: 12px;
+}
+
+.restaraunt__menu-title--line {
+    background: url("../images/title-line.svg") no-repeat center;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.restaraunt__menu-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);  
+    margin-bottom: 16px;
+}
+
+.restaraunt__menu-picture {
+    width: 102px;
+    height: 102px;
+    border-radius: 2px;
+}
+
+.restaraunt__menu-dish {
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 4px;
+    color: #1d1d1d;
+}
+
+.restaraunt__menu-composition {
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+    padding-bottom: 16px;
+}
+
+.restaraunt__menu-price {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}

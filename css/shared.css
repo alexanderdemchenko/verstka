@@ -23,6 +23,8 @@ html {
   h6,
   p {
     font-weight: 400;
+    margin: 0;
+    padding: 0;
   }
   
   .container {
@@ -56,6 +58,10 @@ html {
 
 .location {
       display: none;
+  }
+
+  .location__title {
+      margin-top: 12px;
   }
 
 @media (min-width: 768px) {
