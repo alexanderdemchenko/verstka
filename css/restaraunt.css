@@ -7,6 +7,22 @@
     position: relative;
 }
 
+@media (min-width: 768px) {
+    .restaraunt {
+        background: url("../images/restaraunt-photo-m.jpg") no-repeat 35% 50%;
+        height: 364px;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .restaraunt {
+        background: url("../images/restaraunt-photo-l.jpg") no-repeat center;
+    }
+}
+
+
+
 .restaraunt__description {
     display: flex;
     flex-direction: column;
@@ -16,6 +32,20 @@
     background-color: white;
     margin-top: 130px;
     border-radius: 2px;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+}
+
+@media (min-width: 768px) {
+    .restaraunt__description{
+        flex-direction: row;
+        margin-top: 80px;
+        padding: 38px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
 }
 
 
@@ -25,6 +55,22 @@
     padding-top: 24px;
     padding-bottom: 40px;
     color: #1d1d1d;
+}
+
+@media (min-width: 768px) {
+    .restaraunt__title {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 36px;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .restaraunt__title {
+        
+    }
 }
 
 .restaraunt__category {
@@ -42,13 +88,59 @@
     margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+    .restaraunt__category {
+        margin-top: 55px;
+        padding: 0;  
+    }
+
+    .restaraunt__delivery {
+        margin-top: 55px;
+        margin-bottom: 0;
+    }
+}
+
 .restaraunt__card-nav {
     display: none;
 }
 
-.restaraunt__menu {
-   
+@media (min-width: 768px) {
+    .restaraunt__card-nav {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .restaraunt__card-nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .restaraunt__card-nav-item {
+        margin-right: 40px;
+    }
+
+    .restaraunt__card-nav-item:nth-child(4) {
+        width: 115px;
+    }
+    
+    .restaraunt__card-nav-item a {
+        font-family: "Roboto", sans-serif;
+        display: block;
+        text-decoration: none;
+        font-size: 15px;
+        color: #626262;
+        padding: 32px 0 29px 0;
+    }
+
+    .active a {
+        color: #327430;
+    }
 }
+
+
 
 .restaraunt__menu {
     margin-top: 100px;
@@ -70,12 +162,44 @@
     margin-bottom: 40px;
 }
 
+@media (min-width: 768px) {
+
+    .restaraunt__menu-title {
+        margin-bottom: 32px;
+        justify-content: flex-start;
+    }
+
+    .restaraunt__menu-title--line {
+        display: none;
+    }
+}
+
 .restaraunt__menu-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(117, 117, 117, 0.2);  
+    /* border-bottom: 1px solid rgba(117, 117, 117, 0.2); */
+    border-radius: 2px;  
     margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+    .restaraunt__menu-block {
+        background: #f2f2f2;
+        margin-bottom: 32px;
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+}
+
+.restaraunt__menu-position {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .restaraunt__menu-position {
+        padding-left: 24px;
+        width: 255px;
+    }
 }
 
 .restaraunt__menu-picture {
@@ -84,23 +208,60 @@
     border-radius: 2px;
 }
 
+@media (min-width: 768px) {
+    .restaraunt__menu-picture {
+        width: 200px;
+        height: 160px;
+    }
+}
+
 .restaraunt__menu-dish {
     font-size: 14px;
     line-height: 24px;
-    padding-bottom: 4px;
     color: #1d1d1d;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 170px;
+
+}
+
+@media (min-width: 768px) {
+    .restaraunt__menu-dish {
+        font-size: 16px;
+        width: 395px;
+        padding-top: 15px;
+    }
 }
 
 .restaraunt__menu-composition {
     font-size: 13px;
     line-height: 21px;
     color: #626262;
-    padding-bottom: 16px;
+    position: absolute;
+    top: 28px;
 }
 
 .restaraunt__menu-price {
     font-size: 15px;
     line-height: 21px;
     font-weight: 500;
+    margin-top: 41px;
     padding-bottom: 15px;
 }
+
+@media (min-width: 768px) {
+
+    .restaraunt__menu-composition {
+        top: 44px;
+    }
+
+    .restaraunt__menu-price {
+        margin-top: 83px;
+    }
+}
+
+.restaraunt__card-info {
+    margin-bottom: 24px;
+}
+
